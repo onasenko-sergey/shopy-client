@@ -4,7 +4,7 @@ import { Provider } from 'react-redux'
 
 class AppContainer extends Component {
   static propTypes = {
-    routes : PropTypes.object.isRequired,
+    routes: React.PropTypes.array.isRequired,
     store  : PropTypes.object.isRequired
   }
 
