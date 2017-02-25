@@ -8,11 +8,11 @@ class AppContainer extends Component {
     store  : PropTypes.object.isRequired
   }
 
-  shouldComponentUpdate () {
+  shouldComponentUpdate /* istanbul ignore next */ () {
     return false
   }
 
-  render () {
+  render /* istanbul ignore next */ () {
     const { routes, store } = this.props
 
     return (
