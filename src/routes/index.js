@@ -1,10 +1,12 @@
 import CoreLayout from 'layouts/CoreLayout'
+import Home from 'routes/Home'
 
 export const createRoutes = (store) => {
   let routes = [
     {
       path: '/',
-      component: CoreLayout
+      component: CoreLayout,
+      indexRoute: Home(store)
     }
   ]
 
