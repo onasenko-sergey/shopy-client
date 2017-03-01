@@ -1,0 +1,14 @@
+.social-media {
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .social-media .social-media__item {
+    padding-left: 10px;
+    padding-right: 0;
+  }
+
+  .social-media__icon:before {
+    background-position: 5% center;
+  }
+}

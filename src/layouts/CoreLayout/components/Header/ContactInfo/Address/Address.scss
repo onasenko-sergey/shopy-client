@@ -1,0 +1,24 @@
+.address {
+  margin-bottom: 0;
+  font-size: 12px;
+  line-height: 32px;
+}
+
+.address__list {
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .address .address__list-item {
+    padding-right: 12px;
+  }
+
+  .address__icon-mail {
+    margin-left: -8px;
+    margin-right: 2px;
+  }
+
+  .address__icon-phone {
+    margin-left: -8px;
+  }
+}
