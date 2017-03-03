@@ -1,0 +1,5 @@
+.disabled-link {
+  &:active, &:hover, &:active:hover{
+    cursor: not-allowed;
+  }
+}
