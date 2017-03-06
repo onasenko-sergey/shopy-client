@@ -23,3 +23,11 @@ body {
 *:after {
   box-sizing: inherit;
 }
+
+// not decorated a tag
+.not-decorated-link {
+  &, &:active, &:focus, &:hover, &:visited, &:active:hover{
+    color: currentColor;
+    text-decoration: none;
+  }
+}
