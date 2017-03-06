@@ -1,0 +1,25 @@
+.user-menu {
+  margin-bottom: 0;
+  margin-left: 0;
+
+  .icon_search, .icon_user, .icon_cart {
+    width: 24px;
+  }
+}
+
+.user-menu .user-menu__item {
+  margin-right: 5px;
+  margin-left: 5px;
+  padding-right: 9px;
+  padding-left: 9px;
+
+  &:first-child {
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  &:last-child {
+    margin-right: 0;
+    padding-right: 0;
+  }
+}

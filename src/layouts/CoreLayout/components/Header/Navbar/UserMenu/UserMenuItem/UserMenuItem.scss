@@ -1,0 +1,17 @@
+.user-menu-item_auth {
+  .dropdown-toggle {
+    padding: 0;
+    border: none;
+
+    &, &:focus {
+      background-color: transparent;
+    }
+  }
+
+  .dropdown-menu {
+    top: 125%;
+    left: 50%;
+    min-width: 120px;
+    transform: translateX(-50%);
+  }
+}
