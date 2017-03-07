@@ -1,0 +1,18 @@
+@import '../../../../../../styles/base';
+
+.searchbar {
+  .form-group {
+    margin-bottom: 0;
+  }
+
+  .input-group-addon {
+    color: $primaryColor;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .form-control {
+    padding: 4px 12px;
+    height: auto;
+  }
+}
