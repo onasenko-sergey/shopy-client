@@ -1,2 +1,59 @@
+@import '../../../../styles/base';
+
 .footer {
+  padding: 16px 0;
+  border-top: 1px solid #edeff1;
+  font-size: 14px;
+}
+
+.footer__logo {
+  padding: 2px 0 0;
+  min-width: 100%;
+  text-align: center;
+}
+
+.footer__copyright {
+  padding-top: 8px;
+}
+
+.footer__menu {
+  padding: 0 10px;
+}
+
+.footer__payment {
+  padding-top: 2px;
+  min-width: 100%;
+  text-align: center;
+}
+
+.footer__payment-title {
+  margin-top: 20px;
+  font-size: 16px;
+  color: $primaryColor;
+}
+
+.footer__payment-image {
+  display: inline-block;
+  padding-top: 8px;
+}
+
+@media screen and (min-width: 400px) {
+  .footer__logo, .footer__payment {
+    min-width: unset;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .footer {
+    padding-top: 76px;
+    padding-bottom: 62px;
+  }
+
+  .footer__logo, .footer__payment {
+    text-align: left;
+  }
+
+  .footer__payment {
+    padding: 2px 0 0 24px;
+  }
 }
