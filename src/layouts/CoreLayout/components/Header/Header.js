@@ -1,6 +1,6 @@
 import React from 'react'
-import './Header.scss'
 import ContactInfo from './ContactInfo'
+import Navbar from './Navbar'
 
 const propTypes = {
 }
@@ -8,7 +8,7 @@ const propTypes = {
 export const Header = () => (
   <header className='header'>
     <ContactInfo />
-    <h3>Header</h3>
+    <Navbar searchbarOpened />
   </header>
 )
 
